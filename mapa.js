@@ -23,7 +23,7 @@ $("#arica").mouseenter(function(){ //la funcion "mouseenter" funciona cuando el 
     $("#imagen").attr("src",infoRegiones[0][2]); //modificar src de la etiqueta imagen mediante jquery
     $("#nombreRegion").html(`${infoRegiones[0][0]}`) //modificar el nombre de la region, infoRegiones[0][0] hace alusión a la primera posicion, del primer elemento del arreglo 
     for (let i = 0; i < 3; i++) { //iterador for, que permite agregar etiqueta <li> a la lista con id="listaAtractivos"
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[0][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[0][1][i]))
     }
     $("#infoRegion").show(); //funcion "show" muestra la tarjeta con info
 })
@@ -33,7 +33,7 @@ $("#tarapaca").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[1][2]);
     $("#nombreRegion").html(`${infoRegiones[1][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[1][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[1][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -42,7 +42,7 @@ $("#antofagasta").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[2][2]);
     $("#nombreRegion").html(`${infoRegiones[2][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[2][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[2][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -51,7 +51,7 @@ $("#atacama").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[3][2]);
     $("#nombreRegion").html(`${infoRegiones[3][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[3][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[3][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -60,7 +60,7 @@ $("#coquimbo").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[4][2]);
     $("#nombreRegion").html(`${infoRegiones[4][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[4][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[4][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -69,7 +69,7 @@ $("#valparaiso").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[5][2]);
     $("#nombreRegion").html(`${infoRegiones[5][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[5][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[5][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -78,7 +78,7 @@ $("#santiago").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[6][2]);
     $("#nombreRegion").html(`${infoRegiones[6][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[6][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[6][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -87,7 +87,7 @@ $("#ohiggins").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[7][2]);
     $("#nombreRegion").html(`${infoRegiones[7][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[7][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[7][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -96,7 +96,7 @@ $("#maule").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[8][2]);
     $("#nombreRegion").html(`${infoRegiones[8][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[8][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[8][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -105,7 +105,7 @@ $("#ñuble").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[9][2]);
     $("#nombreRegion").html(`${infoRegiones[9][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[9][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[9][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -114,7 +114,7 @@ $("#biobio").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[10][2]);
     $("#nombreRegion").html(`${infoRegiones[10][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[10][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[10][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -123,7 +123,7 @@ $("#araucania").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[11][2]);
     $("#nombreRegion").html(`${infoRegiones[11][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[11][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[11][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -132,7 +132,7 @@ $("#rios").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[12][2]);
     $("#nombreRegion").html(`${infoRegiones[12][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[12][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[12][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -141,7 +141,7 @@ $("#lagos").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[13][2]);
     $("#nombreRegion").html(`${infoRegiones[13][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[13][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[13][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -150,7 +150,7 @@ $("#aysen").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[14][2]);
     $("#nombreRegion").html(`${infoRegiones[14][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[14][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[14][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -159,7 +159,7 @@ $("#magallanes").mouseenter(function(){
     $("#imagen").attr("src",infoRegiones[15][2]);
     $("#nombreRegion").html(`${infoRegiones[15][0]}`)
     for (let i = 0; i < 3; i++) {
-        $("#listaAtractivos").append($("<li>").html(infoRegiones[15][1][i]))
+        $("#atractivos").append($("<li>").html(infoRegiones[15][1][i]))
     }
     $("#infoRegion").show();
 })
@@ -168,82 +168,82 @@ $("#magallanes").mouseenter(function(){
 
 $("#arica").mouseleave(function(){ //funcion "mouseleave" entra en accion cuando el mouse deja el area de la etiqueta 
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#tarapaca").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#antofagasta").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#atacama").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#coquimbo").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#valparaiso").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#santiago").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#ohiggins").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#maule").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#ñuble").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#biobio").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#araucania").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#rios").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#lagos").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#aysen").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 $("#magallanes").mouseleave(function(){
     $("#infoRegion").hide();
-    $("#listaAtractivos").empty()
+    $("#atractivos").empty();
 })
 
 // Código para que informacion siga al mouse
@@ -256,90 +256,409 @@ function seguir() {
   }
 
 //Modificación de valores
-var tituloNuevo = "";
-$("#cambioTitulo").hide();
-$("#selectorRegion").hide()
-$("#selectorAtributo").hide();
-$("#cambioAtributos").hide();
-$("#cambioImagen").hide();
 
- 
-$("#selectorCambio").change(function(){
-    switch($("#selectorCambio").val()){
-        case "titulo":
-            $("#selectorRegion").empty();
-            $("#selectorRegion").show();
-            $("#cambioTitulo").show();
-            $("#selectorAtributo").hide();
-            $("#cambioAtributos").hide();
-            $("#selectorCambio").append($("<option>").html("Modificar").attr("value",""));
-            for (let i = 0; i < 16; i++) {
-                $("#selectorRegion").append($("<option>").html(infoRegiones[i][0]).attr("value",i))
-            }
-            break;
-        case "atributos":
-            $("#selectorRegion").empty();
-            $("#selectorRegion").show();
-            $("#cambioAtributos").show(); 
-            $("#atributoNuevo").show();
-            $("#selectorAtributo").show();
-            $("#cambioTitulo").hide();
-            $("#selectorRegion").append($("<option>").html("Modificar").attr("value",""));
-            for (let i = 0; i < 16; i++) {
-                $("#selectorRegion").append($("<option>").html(infoRegiones[i][0]).attr("value",i))
-            }
-            break;
-        case "imagen":
-            $("#selectorRegion").empty();
-            $("#selectorRegion").show();
-            $("#selectorRegion").append($("<option>").html("Modificar").attr("value",""));
-            for (let i = 0; i < 16; i++) {
-                $("#selectorRegion").append($("<option>").html(infoRegiones[i][0]).attr("value",i))
-            }
-            $("#cambioImagen").show();
-            break;
+$("#arica").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[0][0]);
+    $("#inputAtractivos").text(infoRegiones[0][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[0][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[0][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[0][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
 
-    }
-})
-
-$("#selectorRegion").change(function(){
-    $("#selectorAtributo").empty();
-    $("#selectorAtributo").append($("<option>").html("Modificar").attr("value",""));
-    for (let i = 0; i < 3; i++) {
-        $("#selectorAtributo").append($("<option>").html(infoRegiones[parseInt($("#selectorRegion").val())][1][i]).attr("value",i))
-    }
-})
-
-function guardarTitulo(){
-    let valueRegion = parseInt($("#selectorRegion").val());
-    var titulo =  $("#tituloNuevo").val();
-    titulo = titulo.split(" ");
-    for (let i = 0; i < titulo.length; i++) {
-    titulo[i] = titulo[i][0].toUpperCase() + titulo[i].substr(1);
-    }
-    titulo = titulo.join(" ");
-    console.log(titulo);
-    infoRegiones[valueRegion][0] = titulo;
-    $("#cambioTitulo").hide();
-    $("#selectorRegion").hide();
-    
+        
+        img = img.slice(12);
+        
+        infoRegiones[0][2] = "/img/" + img;
+        
+        
+    })
 }
+)
 
-function guardarAtributo(){
-    let valueRegion = parseInt($("#selectorRegion").val());
-    let valueAtributo = parseInt($("#selectorAtributo").val());
-    var atributo =  $("#atributoNuevo").val();
-            atributo = atributo[0].toUpperCase() + atributo.slice(1);
-            infoRegiones[valueRegion][1][valueAtributo] = atributo;
-            $("#cambioAtributo").hide();
-            $("#selectorRegion").hide();
-            $("#selectorAtributo").hide();
-            $("#cambioAtributos").hide();
-}
 
-function guardarImagen(){ //no pude
-    
-    $("#selectorRegion").hide()
-    $("#selectorAtributo").hide();
-    $("#cambioImagen").hide();
+
+$("#tarapaca").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[1][0]);
+    $("#inputAtractivos").text(infoRegiones[1][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[1][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[1][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[1][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[1][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+        
+    })
 }
+)
+$("#antofagasta").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[2][0]);
+    $("#inputAtractivos").text(infoRegiones[2][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[2][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[2][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[2][1] = atractivoNuevo;
+        }
+       
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[2][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+    })
+}
+)
+$("#atacama").click(function(){
+    $document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[3][0]);
+    $("#inputAtractivos").text(infoRegiones[3][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[3][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[3][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[3][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[3][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+        
+    })
+}
+)
+$("#coquimbo").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[4][0]);
+    $("#inputAtractivos").text(infoRegiones[4][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[4][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[4][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[4][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[4][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+
+        
+    })
+}
+)
+$("#valparaiso").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[5][0]);
+    $("#inputAtractivos").text(infoRegiones[5][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[5][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[5][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[5][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[5][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+        
+    })
+}
+)
+$("#santiago").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[6][0]);
+    $("#inputAtractivos").text(infoRegiones[6][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[6][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[6][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[6][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[6][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+        
+    })
+}
+)
+$("#ohiggins").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[7][0]);
+    $("#inputAtractivos").text(infoRegiones[7][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[7][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[7][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[7][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[7][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+        
+    })
+}
+)
+$("#maule").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[8][0]);
+    $("#inputAtractivos").text(infoRegiones[8][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[8][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[8][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[8][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[8][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+    })
+}
+)
+$("#ñuble").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[9][0]);
+    $("#inputAtractivos").text(infoRegiones[9][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[9][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[9][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[9][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[9][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+        
+    })
+}
+)
+$("#biobio").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[10][0]);
+    $("#inputAtractivos").text(infoRegiones[10][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[10][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[10][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[10][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[10][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+        
+    })
+}
+)
+$("#araucania").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[11][0]);
+    $("#inputAtractivos").text(infoRegiones[11][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[11][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[11][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[11][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[11][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+        
+    })
+}
+)
+$("#rios").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[12][0]);
+    $("#inputAtractivos").text(infoRegiones[12][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[12][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[12][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[12][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[13][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+        
+    })
+}
+)
+$("#lagos").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[13][0]);
+    $("#inputAtractivos").text(infoRegiones[13][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[13][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[13][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[13][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[14][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
+        
+    })
+}
+)
+$("#aysen").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[14][0]);
+    $("#inputAtractivos").text(infoRegiones[14][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[14][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[14][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[14][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[14][2] = "/img/" + img;
+       
+        
+    })
+}
+)
+$("#magallanes").click(function(){
+    document.getElementById("nombreNuevo").value = "";
+    $("#nombreActual").text(infoRegiones[15][0]);
+    $("#inputAtractivos").text(infoRegiones[15][1]);
+    $("#botonGuardar").click(function(){
+        var nombreNuevo = document.getElementById("nombreNuevo").value;
+        if(nombreNuevo != ""){
+        infoRegiones[15][0] = nombreNuevo;
+        }
+        var atractivoNuevo =  document.getElementById("inputAtractivos").value;
+        if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[15][1])){
+        atractivoNuevo = atractivoNuevo.split(",");
+        infoRegiones[15][1] = atractivoNuevo;
+        }
+        var img = document.getElementById("inputImagen").value;
+
+        
+        img = img.slice(12);
+        
+        infoRegiones[15][2] = "/img/" + img;
+        
+        
+    })
+}
+)
+
+   
