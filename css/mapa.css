@@ -42,3 +42,7 @@ h5{
     width: 100%;
 }
 
+#divMapa{
+    transform: rotate(90deg);
+    margin-top: 700px;
+}
