@@ -282,16 +282,16 @@ $("#arica").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[0][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[0][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
 
-        if(!img){
-            $("#imagen").attr("src",infoRegiones[0][0]);
-        }else{
-            img = img.slice(12);
-            infoRegiones[0][2] = "/img/" + img;
-        }
-   
+        
+        img = img.slice(12);
+        
+        infoRegiones[0][2] = "/img/" + img;
+        
+        
     })
 }
 )
@@ -311,6 +311,7 @@ $("#tarapaca").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[1][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[1][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
         if(!img){
@@ -336,6 +337,7 @@ $("#antofagasta").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[2][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[2][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
        
         var img = document.getElementById("inputImagen").value;
@@ -362,6 +364,7 @@ $("#atacama").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[3][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[3][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
 
@@ -388,6 +391,7 @@ $("#coquimbo").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[4][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[4][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
         if(!img){
@@ -414,6 +418,7 @@ $("#valparaiso").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[5][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[5][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
 
@@ -440,6 +445,7 @@ $("#santiago").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[6][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[6][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
 
@@ -466,6 +472,7 @@ $("#ohiggins").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[7][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[7][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
 
@@ -492,6 +499,7 @@ $("#maule").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[8][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[8][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
 
@@ -517,6 +525,7 @@ $("#ñuble").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[9][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[9][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
 
@@ -543,6 +552,7 @@ $("#biobio").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[10][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[10][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
 
@@ -569,15 +579,15 @@ $("#araucania").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[11][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[11][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
 
-        if(!img){
-            $("#imagen").attr("src",infoRegiones[0][0]);
-        }else{
-            img = img.slice(12);
-            infoRegiones[0][2] = "/img/" + img;
-        }
+        
+        img = img.slice(12);
+        
+        infoRegiones[11][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
         
     })
 }
@@ -595,15 +605,15 @@ $("#rios").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[12][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[12][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
 
-        if(!img){
-            $("#imagen").attr("src",infoRegiones[0][0]);
-        }else{
-            img = img.slice(12);
-            infoRegiones[0][2] = "/img/" + img;
-        }
+        
+        img = img.slice(12);
+        
+        infoRegiones[13][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
         
     })
 }
@@ -621,15 +631,15 @@ $("#lagos").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[13][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[13][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
 
-        if(!img){
-            $("#imagen").attr("src",infoRegiones[0][0]);
-        }else{
-            img = img.slice(12);
-            infoRegiones[0][2] = "/img/" + img;
-        }
+        
+        img = img.slice(12);
+        
+        infoRegiones[14][2] = "/img/" + img;
+        console.log(infoRegiones[0][2])
         
     })
 }
@@ -647,15 +657,15 @@ $("#aysen").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[14][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[14][1] = atractivoNuevo;
+        atractivoNuevo = "";
+        
         }
         var img = document.getElementById("inputImagen").value;
 
-        if(!img){
-            $("#imagen").attr("src",infoRegiones[0][0]);
-        }else{
-            img = img.slice(12);
-            infoRegiones[0][2] = "/img/" + img;
-        }
+        
+        img = img.slice(12);
+        
+        infoRegiones[14][2] = "/img/" + img;
        
         
     })
@@ -675,15 +685,14 @@ $("#magallanes").on("click",function(){
         if(nombreNuevo != $("#inputAtractivos").text(infoRegiones[15][1])){
         atractivoNuevo = atractivoNuevo.split(",");
         infoRegiones[15][1] = atractivoNuevo;
+        atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
 
-        if(!img){
-            $("#imagen").attr("src",infoRegiones[0][0]);
-        }else{
-            img = img.slice(12);
-            infoRegiones[0][2] = "/img/" + img;
-        }
+        
+        img = img.slice(12);
+        
+        infoRegiones[15][2] = "/img/" + img;
         
         
     })
