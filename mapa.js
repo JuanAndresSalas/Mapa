@@ -285,11 +285,12 @@ $("#arica").on("click",function(){
         atractivoNuevo = "";
         }
         var img = document.getElementById("inputImagen").value;
-
-        
-        img = img.slice(12);
-        
-        infoRegiones[0][2] = "/img/" + img;
+        if(!img){
+            $("#imagen").attr("src",infoRegiones[0][0]);
+        }else{
+            img = img.slice(12);
+            infoRegiones[0][2] = "/img/" + img;
+        }
         
         
     })
@@ -301,7 +302,7 @@ $("#arica").on("click",function(){
 $("#tarapaca").on("click",function(){
     document.getElementById("nombreNuevo").value = "";
     $("#nombreActual").text(infoRegiones[1][0]);
-    $("#inputAtractivos").text(infoRegiones[1][1]);
+     $("#inputAtractivos").text(infoRegiones[1][1]);
     $("#botonGuardar").click(function(){
         var nombreNuevo = document.getElementById("nombreNuevo").value;
         if(nombreNuevo != ""){
